@@ -836,6 +836,7 @@ h4 {
 .text-name {
     font-style:normal;
     font-weight: normal;
+    color:#000000!important;
 }
 
 .footer-title {
