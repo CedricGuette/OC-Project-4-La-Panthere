@@ -742,10 +742,6 @@ h4 {
     color: #FFFFFF!important;
 }
 
-.purple {
-    color: #6F0033!important;
-}
-
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -837,6 +833,26 @@ h4 {
     line-height: 2.5em;
 }
 
+.text-name {
+    font-style:normal;
+    font-weight: normal;
+}
+
+.footer-title {
+    font-size: 15px;
+}
+
+.text-quote{
+    font-size:20px;
+    font-style:italic;
+    font-weight: bold;
+}
+
+.presentation-text{
+    font-size: 22px;
+    margin: auto;
+    width: 70%;
+}
 
 @media (max-width: 1024px) {
     .bloc {
