@@ -8,7 +8,7 @@
  AddOutputFilterByType DEFLATE text/html
  AddOutputFilterByType DEFLATE text/css
  AddOutputFilterByType DEFLATE image/svg+xml
- AddOutputFilterByType DEFLATE application/x-javascript
+  AddOutputFilterByType DEFLATE image/webp
 
  # Pour les proxies
  Header append Vary User-Agent env=!dont-vary
@@ -19,12 +19,6 @@
     <FilesMatch "\.(ico|css|webp|svg)$">
         Header set Cache-Control "max-age=86400, public"
     </FilesMatch>
-    <FilesMatch "\.(js)$">
-        Header set Cache-Control "max-age=86400, private"
-    </FilesMatch>
-    <filesMatch "\.(html|htm)$">
-        Header set Cache-Control "max-age=7200, public"
-    </filesMatch>
 </IfModule>
 # END Cache-Control Headers
 
