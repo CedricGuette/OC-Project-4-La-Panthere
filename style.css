@@ -288,6 +288,17 @@ a:hover {
     font-size: 32px;
 }
 
+
+#bloc-6 .container{
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+
+#bloc-6 .row .tc-white{
+    color: #fff!important;
+}
+
 .navbar {
     margin-bottom: 0;
     z-index: 1;
