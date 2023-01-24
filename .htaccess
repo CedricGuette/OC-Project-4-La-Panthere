@@ -4,8 +4,6 @@ Accept-Encoding: gzip, compress, br
 <FilesMatch "\.(ico|jpe?g|png|gif|swf|css|gz|webp|svg)$">
 Header set Cache-Control "max-age=2592000, public"
 </FilesMatch>
-<FilesMatch "\.(js)$">
-Header set Cache-Control "max-age=2592000, private"
 </FilesMatch>
 <filesMatch "\.(html|htm)$">
 Header set Cache-Control "max-age=7200, public"
